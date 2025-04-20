@@ -1,10 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .header {
     display: flex;
+    align-items: center;
+    align-content: space-between;
     min-height: 50px;
     border: solid 1px red;
 }
 
 .main {
+    height: 100%;
     display: flex;
     border: solid 1px;
 }
@@ -15,11 +23,13 @@
 .member {
     border: solid 1px;
     display: flex;
+    align-items: center;
 }
 .avatar {
+    align-content: center;
     border: solid 1px;
-    width: 25px;
-    height: 25px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
 }
 .member-name {
@@ -27,9 +37,13 @@
     font-weight: bold;
 }
 .chat {
+    display: flex;
     height: 100%;
     width: 100%;
     border: solid 1px purple;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
 }
 .msg {
     display: flex;
@@ -39,8 +53,11 @@
     flex-direction: column;
 }
 .footer {
+    position: absolute;
+    bottom: 0;
     border: solid 1px green;
     min-height: 100px;
+    width: 100%;
 }
 .composerContent {
     display: flex;
