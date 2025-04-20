@@ -1,56 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Interface (Pure CSS)</title>
     <link rel="stylesheet" href="index.css">
-    <title>Main</title>
 </head>
 <body>
-    <header class="header">
-        <span>
-            Chat
-        </span>
-        <button>Delete</button>
-        <button>Rename</button>
-    </header>
-    <section class="main">
-        <div class="list-members">
-            <div class="member">
-                <img src="" alt="" class="avatar">
-                <span class="member-name">Joil</span>
-            </div>
-            <div class="member">
-                <img src="" alt="" class="avatar">
-                <span class="member-name">Joil</span>
-            </div>
+    <div class="chat-container">
+        <div class="header">
+            <h2>Шапка чата (1)</h2>
         </div>
-        <div class="chat">
-            <div class="msg">
-                <img src="" alt="" class="avatar">
-                <div class="msg-text">
-                    <span class="member-name">Joil</span>
-                    <span class="text">Hi, everone!</span>
+        
+        <div class="main-content">
+            <div class="sidebar">
+                <h3>Участники чата (2)</h3>
+                <div class="demo-content">
+                    <ul>
+                        <li>Участник 1</li>
+                        <li>Участник 2</li>
+                        <li>Участник 3</li>
+                        <!-- Повторяем для создания прокрутки -->
+                        <li>Участник 4</li>
+                        <li>Участник 5</li>
+                        <li>Участник 6</li>
+                        <li>Участник 7</li>
+                        <li>Участник 8</li>
+                        <li>Участник 9</li>
+                        <li>Участник 10</li>
+                        <li>Участник 11</li>
+                        <li>Участник 12</li>
+                        <li>Участник 13</li>
+                        <li>Участник 14</li>
+                        <li>Участник 15</li>
+                        <li>Участник 16</li>
+                        <li>Участник 17</li>
+                        <li>Участник 18</li>
+                        <li>Участник 19</li>
+                        <li>Участник 20</li>
+                    </ul>
                 </div>
             </div>
-            <div class="msg">
-                <img src="" alt="" class="avatar">
-                <div class="msg-text">
-                    <span class="member-name">Joil</span>
-                    <span class="text">Hi, everone!</span>
+            
+            <div class="content">
+                <h3>Сообщения чата (3)</h3>
+                <div class="demo-content">
+                    <p>Сообщение 1</p>
+                    <p>Сообщение 2</p>
+                    <p>Сообщение 3</p>
+                    <!-- Повторяем для создания прокрутки -->
+                    <p>Сообщение 4</p>
+                    <p>Сообщение 5</p>
+                    <p>Сообщение 6</p>
+                    <p>Сообщение 7</p>
+                    <p>Сообщение 8</p>
+                    <p>Сообщение 9</p>
+                    <p>Сообщение 10</p>
+                    <p>Сообщение 11</p>
+                    <p>Сообщение 12</p>
+                    <p>Сообщение 13</p>
+                    <p>Сообщение 14</p>
+                    <p>Сообщение 15</p>
+                    <p>Сообщение 16</p>
+                    <p>Сообщение 17</p>
+                    <p>Сообщение 18</p>
+                    <p>Сообщение 19</p>
+                    <p>Сообщение 20</p>
                 </div>
             </div>
         </div>
-    </section>
-    <footer class="footer">
-        <form class="composerContent">
-            <div class="composerInput">
-                <input class="composerInputMsg" required placeholder="Сообщение" inputmode="text">
-            </div>
-            <div class="composerInputTrigger">
-                <input class="composerInputTriggerSend">
-            </div>    
-        </form>
-    </footer>
+        
+        <div class="footer">
+            <h3>Ввод сообщения (4)</h3>
+            <textarea style="width: 100%; height: 60px;"></textarea>
+        </div>
+    </div>
 </body>
 </html>
