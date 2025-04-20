@@ -1,0 +1,54 @@
+.header {
+    display: flex;
+    min-height: 50px;
+    border: solid 1px red;
+}
+
+.main {
+    display: flex;
+    border: solid 1px;
+}
+.list-members {
+    width: 200px;
+    border: solid 1px orange;
+}
+.member {
+    border: solid 1px;
+    display: flex;
+}
+.avatar {
+    border: solid 1px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.member-name {
+    border: solid 1px;
+    font-weight: bold;
+}
+.chat {
+    height: 100%;
+    width: 100%;
+    border: solid 1px purple;
+}
+.msg {
+    display: flex;
+    border: solid 1px;
+}
+.msg-text {
+    flex-direction: column;
+}
+.footer {
+    border: solid 1px green;
+    min-height: 100px;
+}
+.composerContent {
+    display: flex;
+    border: solid 1px;
+}
+.composerInput {
+    border: solid 1px;
+}
+.composerInputTriggerSend {
+    border: solid 1px;
+}
